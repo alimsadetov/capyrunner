@@ -1,5 +1,7 @@
 extends KinematicBody2D
 
+onready var running = $AnimationPlayer
+
 var gravity = 1000
 var jumpHeight = 400
 var velocity = Vector2.ZERO
@@ -10,3 +12,6 @@ func _physics_process(delta):
 		
 	velocity.y+=gravity * delta
 	velocity = move_and_slide(velocity, Vector2.UP)
+
+func _ready():
+	running.play("Running")
