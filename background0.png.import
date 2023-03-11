@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/capa_sprite.png-aad3f124192719d60cfe8c1ba6560a7a.stex"
+path="res://.import/background0.png-9749e8a743397986d10b47efa9a80125.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://capa_sprite.png"
-dest_files=[ "res://.import/capa_sprite.png-aad3f124192719d60cfe8c1ba6560a7a.stex" ]
+source_file="res://background0.png"
+dest_files=[ "res://.import/background0.png-9749e8a743397986d10b47efa9a80125.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
@@ -31,5 +31,5 @@ process/invert_color=false
 process/normal_map_invert_y=false
 stream=false
 size_limit=0
-detect_3d=false
+detect_3d=true
 svg/scale=1.0
